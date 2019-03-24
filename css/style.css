@@ -56,3 +56,69 @@ header {
 	border: none;
 	padding: 18px 45px;
 }
+.about__block {
+	margin-top: 100px;
+	text-align: center;
+}
+.title {
+	font-family: 'Montserral', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+.about__text {
+	color: #787878;
+	font-size: 16px;
+	padding-top: 40px;
+}
+.signature {
+	padding: 45px 0 100px 0;
+}
+.professional__skills {
+	background: #f8f9f9;
+	font-family: 'Montserral', sans-serif;
+}
+.skills {
+	margin-top: 170px;
+}
+.skills__img {
+	width: 47.1em;
+}
+.skills__block {
+	margin-bottom: 160px;
+}
+.skills__text {
+	margin-top: 40px;
+	font-size: 12px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.skills__percent {
+	margin-left: 15px;
+}
+.skills__line {
+	margin-top: 15px;
+	border-bottom: 3px solid #d8d8d8;
+	position: relative;
+	z-index: 1;
+}
+.skills__progress__1 {
+		margin-top: -3px;
+		border-bottom: 3px solid #10c9c3;
+		width: 75%;
+		position: relative;
+		z-index: 2;
+}
+.skills__progress__2 {
+		margin-top: -3px;
+		border-bottom: 3px solid #10c9c3;
+		width: 90%;
+		position: relative;
+		z-index: 2;
+}
+.skills__progress__3 {
+		margin-top: -3px;
+		border-bottom: 3px solid #10c9c3;
+		width: 65%;
+		position: relative;
+		z-index: 2;
+}
