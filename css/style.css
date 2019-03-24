@@ -1,0 +1,58 @@
+body {
+	font-family: 'NunitoSans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+/*first screen*/
+header {
+	background: url(../img/header-bg.png) no-repeat center top / cover;
+}
+.logo {
+	margin-top: 45px;
+}
+.menu {
+	margin-top: 45px;
+}
+.menu__item a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #272727;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding-right: 30px;
+}
+.menu__item a:hover {
+	color: #1ecbc6;
+}
+.banner {
+	margin-top: 190px;
+	margin-bottom: 200px;
+}
+.banner__title {
+	font-family: 'Montserral', sans-serif;
+	font-size: 38px;
+	color: #1d1d1d;
+	margin-bottom: 42px;
+}
+.banner__text {
+	font-size: 18px;
+	color: #787878;
+	margin-bottom: 40px;
+}
+.banner__btn {
+	font-size: 14px;
+	font-family: 'Montserral', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	background: #10c9c3;
+	border: none;
+	padding: 18px 45px;
+}
