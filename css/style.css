@@ -95,7 +95,7 @@ ul, li {
 }
 .skills {
 	margin-top: 170px;
-	margin-left: 70px;
+	
 }
 .skills__img {
 	width: 100%;
@@ -138,4 +138,14 @@ ul, li {
 		width: 65%;
 		position: relative;
 		z-index: 2;
+}
+@media screen and (min-width: 900px) {
+	.skills {
+	margin-left: 70px;
+	}
+}
+@media screen and (max-width: 580px) {
+	.skills {
+	text-align: center;
+	}
 }
