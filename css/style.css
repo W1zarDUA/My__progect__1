@@ -1,77 +1,93 @@
 body {
 	font-family: 'NunitoSans', sans-serif;
+	overflow-x: hidden;
 }
-h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-	padding: 0;
+h1, h2, h3, h4, h5, h6, ul, li, a {
+	font-family: 'Montserrat', sans-serif;
 }
-ul, li {
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-}
-
-/*first screen*/
 header {
 	background: url(../img/header-bg.png) no-repeat center top / cover;
 }
-.logo {
-	margin-top: 45px;
+ul, li {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
 }
-.menu {
-	margin-top: 45px;
+.menu-btn {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: #fff;
+	border-radius: 50%;
+	position: relative;
 }
-.menu__item a {
-	text-transform: uppercase;
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+	left: 50%;
+	margin-left: -7px;
+	width: 14px;
+	height: 2px;
+	background: #222;
+}
+.menu-btn span:before,
+.menu-btn span:after {
+	content: '';
+}
+.menu-btn span:before {
+	transform: translateY(-4px);
+}
+.menu-btn span:after {
+	transform: translateY(4px);
+}
+.menu-item a {
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #272727;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	padding-right: 30px;
+	vertical-align: center;
+	font-size: 12px;
+	font-weight: 600;
+	margin-right: 30px;
 }
-.menu__item a:hover {
+.menu-item a:hover {
 	color: #1ecbc6;
 }
 .banner {
-	margin-top: 190px;
+	margin-top: 180px;
 	margin-bottom: 200px;
 }
-.banner__title {
-	font-family: 'Montserral', sans-serif;
+.banner h1 {
 	font-size: 38px;
-	color: #1d1d1d;
-	margin-bottom: 42px;
+	font-weight: 600;
 }
-.banner__text {
+.banner p {
 	font-size: 18px;
 	color: #787878;
-	margin-bottom: 40px;
+	margin: 40px 0;
 }
-.banner__btn {
-	font-size: 14px;
-	font-family: 'Montserral', sans-serif;
-	text-transform: uppercase;
-	color: #fff;
+.banner button {
+	border: 1px solid #10c9c3;
 	background: #10c9c3;
-	border: none;
-	padding: 18px 45px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 15px 35px;
 }
-.about__block {
-	margin-top: 100px;
+.about_block {
 	text-align: center;
+	margin: 100px 0;
 }
-.title {
-	font-family: 'Montserral', sans-serif;
+.about_block h2 {
 	font-size: 30px;
-	font-weight: 700;
+	font-weight: 600;
 }
-.about__text {
+.about_block p {
+	margin: 40px 0;
 	color: #787878;
-	font-size: 16px;
-	padding-top: 40px;
-}
-.signature {
-	padding: 45px 0 100px 0;
 }
 .professional__skills {
 	background: #f8f9f9;
@@ -79,9 +95,10 @@ header {
 }
 .skills {
 	margin-top: 170px;
+	margin-left: 70px;
 }
 .skills__img {
-	width: 47.1em;
+	width: 100%;
 }
 .skills__block {
 	margin-bottom: 160px;
