@@ -14,12 +14,7 @@ ul, li {
 	display: inline-block;
 }
 .menu-btn {
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-	background: #fff;
-	border-radius: 50%;
-	position: relative;
+	display: none;
 }
 .menu-btn span,
 .menu-btn span:before,
@@ -50,7 +45,7 @@ ul, li {
 	vertical-align: center;
 	font-size: 12px;
 	font-weight: 600;
-	margin-right: 30px;
+	margin-left: 30px;
 }
 .menu-item a:hover {
 	color: #1ecbc6;
@@ -147,5 +142,15 @@ ul, li {
 @media screen and (max-width: 580px) {
 	.skills {
 	text-align: center;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.menu-item a {
+		display: none;
+		height: auto;
+	}
+	.menu-btn {
+		display: inline-block;
+		margin: 0 auto;
 	}
 }
