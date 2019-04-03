@@ -134,16 +134,44 @@ ul, li {
 		position: relative;
 		z-index: 2;
 }
-@media screen and (min-width: 900px) {
-	.skills {
-	margin-left: 70px;
-	}
+.numbers {
+	background: #10c9c3;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
 }
-@media screen and (max-width: 580px) {
-	.skills {
-	text-align: center;
-	}
+.numbers__block {
+	margin: 70px 0 70px 25px;
+	text-transform: uppercase;
+	font-size: 15px;
 }
+.number__icon {
+	font-size: 40px;
+	margin: 70px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1000px) {
 	.menu-item a {
 		display: none;
@@ -152,5 +180,36 @@ ul, li {
 	.menu-btn {
 		display: inline-block;
 		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 992px) {
+	.number__icon {
+		margin: 40px 0;
+		font-size: 60px;
+	}
+	.numbers__block {
+		margin: 40px 0 40px 15px;
+		font-size: 18px;
+	}
+}
+@media screen and (min-width: 900px) {
+	.skills {
+	margin-left: 70px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.number__icon {
+		margin: 40px 0;
+		font-size: 50px;
+	}
+	.numbers__block {
+		margin: 40px 0 40px 15px;
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.skills {
+	text-align: center;
 	}
 }
