@@ -148,15 +148,36 @@ ul, li {
 	font-size: 40px;
 	margin: 70px 0;
 }
-
-
-
-
-
-
-
-
-
+.work	{
+position: absolute;
+}
+.work__block {
+	cursor: pointer;
+	height: 297px;
+	width: 345px;
+	background: #000;
+}
+.work__block img {
+	transition: .5s;
+	width: 100%;
+}
+.work:hover .work__block img {
+	opacity: .5;
+	filter: blur(1px);
+}
+.work__icon {
+	display: none;
+	position: absolute;
+	top: 120px;
+  left: 150px;
+}
+.work__icon i {
+	color: #fff;
+	font-size: 70px;
+}
+.work:hover .work__icon {
+	display: inline-block;
+}
 
 
 
@@ -197,7 +218,7 @@ ul, li {
 	margin-left: 70px;
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.number__icon {
 		margin: 40px 0;
 		font-size: 50px;
@@ -206,9 +227,15 @@ ul, li {
 		margin: 40px 0 40px 15px;
 		font-size: 16px;
 	}
+	.work__block {
+		width: 100%;
+	}
+	.work__icon i {
+		display: none;
+	}
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 576px) {
 	.skills {
 	text-align: center;
 	}
