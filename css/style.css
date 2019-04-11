@@ -64,13 +64,14 @@ ul, li {
 	margin: 40px 0;
 }
 .banner button {
-	border: 1px solid #10c9c3;
+	border: none;
 	background: #10c9c3;
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	font-size: 12px;
 	text-transform: uppercase;
 	padding: 15px 35px;
+	cursor: pointer;
 }
 .about_block {
 	text-align: center;
@@ -243,11 +244,93 @@ ul, li {
 .clients__img img {
 	margin: 60px 20px 60px 0;
 }
+.project {
+	background-color: #f5f5f5;
+}
+.project__block {
+	text-align: center;
+	margin-top: 100px;
+}
+.project__block h2 {
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+.project__block p {
+	color: #828282;
+	margin: 40px 0 25px 0;
+}
+.project__form {
+	text-align: center;
+	margin-bottom: 100px;
+}
+.project__form form input {
+	border: none;
+	padding: 12px 0 12px 10px;
+	margin: 15px 0;
+	color: #787878;
+	font-size: 15px;
+}
+.project__form form {
+	text-align: center;
+	margin: 0 auto;
+}
+.project__form form input:nth-child(1) {
+	width: 48%;
+	margin-right: 20px;
+}
+.project__form form input:nth-child(2) {
+	width: 48%;
+}
+.project__form form input:nth-child(3) {
+	width: 100%;
+}
+.project__form form input:nth-child(4) {
+	width: 100%;
+	padding-bottom: 100px;
+}
+.project__form form button {
+	margin-top: 15px;
+	border: none;
+	background: #10c9c3;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 15px 35px;
+	cursor: pointer;
+}
+footer {
+	background: #141414;
+}
+.footer {
 
+}
+.footer__block a {
+	text-decoration: none;
+	display: inline-block;
+	color: #bcbcbc;
+	font-size: 15px;
+}
 
-
-
-
+.footer__block {
+	margin-top: 100px;
+	font-size: 15px;
+	color: #bcbcbc;
+}
+.footer__title h4 {
+	color: #fff;
+	margin-bottom: 30px;
+}
+.footer__menu__2 a{
+	margin-left: 10px;
+}
+.footer__social a {
+	width: 50%;
+}
+.footer__block a:hover {
+	padding-bottom: 2px;
+	border-bottom: 1px solid #bcbcbc;
+}
 
 
 
@@ -276,6 +359,13 @@ ul, li {
 	.carousel-caption p {
 	margin: 40px 0 80px 0;
  }
+ .project__form form input:nth-child(1) {
+	width: 48%;
+	margin-right: 20px;
+}
+.project__form form input:nth-child(2) {
+	width: 48%;
+}
 }
 @media screen and (max-width: 887px) {
   .carousel-caption p {
@@ -314,6 +404,40 @@ ul, li {
   .carousel-caption h3 {
 	font-size: 22px;
 	line-height: 1.3em;
+	}
+	.project__form form input:nth-child(1) {
+	width: 100%;
+	}
+	.project__form form input:nth-child(2) {
+	width: 100%;
+	}
+	.footer__block {
+	margin-top: 20px;
+	font-size: 12px;
+}
+.footer__block a {
+	font-size: 12px;
+}
+}
+.footer__title h4 {
+	color: #fff;
+	margin-bottom: 10px;
+}
+.footer__support a{
+
+}
+.footer__menu__2 a{
+
+}
+.footer__menu__1 a{
+
+}
+.footer__social a {
+
+}
+.footer__block a:hover {
+	padding-bottom: 2px;
+	border-bottom: 1px solid #bcbcbc;
 }
 }
 @media screen and (max-width: 700px) {
@@ -330,7 +454,13 @@ ul, li {
   .carousel-caption h3 {
 	font-size: 20px;
 	line-height: 1.2em;
-}
+	}
+	.project__form form input:nth-child(1) {
+	width: 100%;
+	}
+	.project__form form input:nth-child(2) {
+	width: 100%;
+	}
 }
 @media screen and (max-width: 484px) {
 	.carousel-caption p {
